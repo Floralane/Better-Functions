@@ -1,0 +1,30 @@
+replaceitem entity @p slot.inventory 0 barrier 1 0
+replaceitem entity @p slot.inventory 1 barrier 1 0
+replaceitem entity @p slot.inventory 2 barrier 1 0
+replaceitem entity @p slot.inventory 3 barrier 1 0
+replaceitem entity @p slot.inventory 4 barrier 1 0
+replaceitem entity @p slot.inventory 5 barrier 1 0
+replaceitem entity @p slot.inventory 6 barrier 1 0
+replaceitem entity @p slot.inventory 7 barrier 1 0
+replaceitem entity @p slot.inventory 8 barrier 1 0
+replaceitem entity @p slot.inventory 9 barrier 1 0
+replaceitem entity @p slot.inventory 10 barrier 1 0
+replaceitem entity @p slot.inventory 11 barrier 1 0
+replaceitem entity @p slot.inventory 12 barrier 1 0
+replaceitem entity @p slot.inventory 13 barrier 1 0
+replaceitem entity @p slot.inventory 14 barrier 1 0
+replaceitem entity @p slot.inventory 15 barrier 1 0
+replaceitem entity @p slot.inventory 16 barrier 1 0
+replaceitem entity @p slot.inventory 17 barrier 1 0
+replaceitem entity @p slot.inventory 18 barrier 1 0
+replaceitem entity @p slot.inventory 19 barrier 1 0
+replaceitem entity @p slot.inventory 20 barrier 1 0
+replaceitem entity @p slot.inventory 21 barrier 1 0
+replaceitem entity @p slot.inventory 22 barrier 1 0
+replaceitem entity @p slot.inventory 23 barrier 1 0
+replaceitem entity @p slot.inventory 24 barrier 1 0
+replaceitem entity @p slot.inventory 25 barrier 1 0
+replaceitem entity @p slot.inventory 26 barrier 1 0
+clear @p barrier
+tellraw @p {"rawtext":[{"text":"§l§a» §r§7Your inventory has been cleared."}]}
+execute as @p at @s run playsound random.click @s ~~~ 0.5
