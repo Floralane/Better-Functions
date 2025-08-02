@@ -1,0 +1,62 @@
+v1.3 Changelog
+
+New Features:
+❖ Added setspawn.mcfunction - players can now set their own custom teleport point using this function
+❖ Added spawn.mcfunction
+
+Improvements:
+❖ Changed pack name from "Functions+" to "BetterFunctions"
+❖ on_join.mcfunction on_join.mcfunction no longer teleports players to a fixed location. Instead, it now supports dynamic teleportation based on each players custom spawn point set via setspawn.mcfunction
+
+---
+
+v1.2.1 Changelog
+
+Fixes & Improvements:
+❖ Renamed we/stone.mcfunction to we/setblock.mcfunction for clearer naming and purpose
+❖ Changed the block placed by we/setblock.mcfunction from stone to glass
+❖ Added events/camera.mcfunction to the tick.json file to ensure it runs every tick
+
+---
+
+v1.2 Changelog
+
+New Features:
+❖ Added new time functions: sunrise, noon, sunset and midnight
+❖ Added healall.mcfunction
+❖ Added tips.mcfunction
+❖ Added we/protect_area.mcfunction
+❖ Added unblacklist.mcfunction to easily exclude specific players from the griefer alert system
+
+Improvements:
+❖ New pack icon
+❖ Changed pack name from "Simple Functions" to "Functions+"
+❖ Updated the cosmetic formatting of most tellraw messages
+❖ Clears player's spawnpoint on join
+❖ Changed rm=3 target selectors to rm=1 for improved accuracy when selecting players in all functions
+
+Fixes:
+❖ Fixed an issue where tools.mcfunction used /replaceitem instead of /give, resulting in item loss
+❖ Fixed an issue where troll/void.mcfunction caused creative players get trapped under bedrock
+❖ As mentioned above, all troll functions now change the player's game mode to survival
+
+Tip scoreboard counter: 3
+
+---
+
+v1.1 Changelog
+
+New Features:
+❖ Added reset.mcfunction to revert to original world settings
+❖ Added events/on_join.mcfunction to trigger actions upon player join
+❖ Added events/camera.mcfunction for camera events
+
+Improvements:
+❖ New pack icon
+❖ Replaced > with » in all display messages
+❖ Replaced individual functions (coordsoff, nightvisionoff, vanishoff, flyoff) with a new toggle system. Now, use the same function to enable and disable these features
+❖ Moved tick_effects.mcfunction to a new folder: BP/functions/events/tick_effects.mcfunction
+
+Tip scoreboard counter: 2
+
+---

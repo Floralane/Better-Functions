@@ -1,0 +1,7 @@
+{
+	"values": [
+		"events/tick_effects",
+		"events/on_join",
+		"events/camera"
+	]
+}

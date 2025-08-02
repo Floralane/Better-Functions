@@ -1,0 +1,1 @@
+scoreboard players reset @a[scores={grieferAlert=!2..3] grieferAlert
